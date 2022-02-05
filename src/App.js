@@ -29,16 +29,16 @@ const App = () => {
           <TextField id="fullWidth" fullWidth label="Email Adress *" variant="outlined" sx={{ mb: 2 }} />
           <TextField id="fullWidth" fullWidth label="Password *" variant="outlined" />
         </Box >
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: "space-between" }}>
+        <Box sx={{ display: 'flex', justifyContent: "space-between", width:400, mb:2 }}>
           <Checkbox></Checkbox>
-          <Typography sx={{ width: 370 }}>I want to recibe information,marketing promotions and updates via email</Typography>
+          <Typography >I want to recibe information,marketing promotions and updates via email</Typography>
         </Box>
-        <Button sx={{ width: 400, m: 2 }} variant="contained">Sing Up</Button>
+        <Button sx={{ width: 400,mb:2  }} variant="contained">Sing Up</Button>
         <Box sx={{ width: 400, mb: 1, display: "flex", justifyContent: "flex-end" }}>
           <Link href="#" underline="hover" >{'Already have an account? Sign in'}</Link>
         </Box>
       </form>
-      
+
     </Box>
   )
 }
