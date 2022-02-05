@@ -38,6 +38,9 @@ const App = () => {
           <Link href="#" underline="hover" >{'Already have an account? Sign in'}</Link>
         </Box>
       </form>
+      <Typography sx={{ color: 'text.secondary' }}>Copyright © <Link href="#" underline="hover" sx={{ color: 'text.secondary' }}>
+        {'Gabriela Loyola Carpio 2022'}
+      </Link></Typography>
 
     </Box>
   )
